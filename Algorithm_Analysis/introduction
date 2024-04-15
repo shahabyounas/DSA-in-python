@@ -1,0 +1,48 @@
+Data Structure and Algorithm:
+    Data Structure is a systematic way of organizing and accessing data, and an algorithm is step-by-step
+    procedure for performing a task in finite amount of time. 
+
+    The primary tools to analyze them:
+    Run Time of algorithm and data structure operations, with space usage also being of interest.
+
+    The running time may behave different on distinct input size, different inputs of the same size. It also
+    has dependence on the underlying machine that may have many other process on-going. This approach maybe
+    useful when refining production level code but spending too much early in development could be foolish which can
+    letter be easily solved by higher-level analysis.
+
+Counting Primitive Operations:
+    To analyze the running time of an algorithm without performing experiments, we
+    perform an analysis directly on a high-level description of the algorithm (either in
+    the form of an actual code fragment, or language-independent pseudo-code). We
+    define a set of primitive operations such as the following:
+        • Assigning an identifier to an object
+        • Determining the object associated with an identifier
+        • Performing an arithmetic operation (for example, adding two numbers)
+        • Comparing two numbers
+        • Accessing a single element of a Python list by index
+        • Calling a function (excluding operations executed within the function)
+        • Returning from a function.
+
+Seven functions used in the analysis of algorithm:
+   1 - constant function f(n) = c,
+   2 - The logarithm function x= log_b N (The value b is the base of the log)
+        Computing the logarithm function exactly for any integer n involves the use
+        of calculus, but we can use an approximation that is good enough for our purposes without calculus. In  particular, we can easily compute the smallest integer
+        greater than or equal to logb n (its so-called ceiling, logb n). For positive integer, 
+        n, this value is equal to the number of times we can divide n by b before we get
+        a number less than or equal to 1. For example, the evaluation of log3 27 is 3,
+        because ((27/3)/3)/3 = 1. Likewise, log4 64 is 3, because ((64/4)/4)/4 = 1,
+        and log2 12 is 4, because (((12/2)/2)/2)/2 = 0.75 ≤ 1.
+        Proposition 3.1 (Logarithm Rules): Given real numbers a > 0, b > 1, c > 0 and d > 1, we have:
+            1. logb(ac) = logb a+logb c
+            2. logb(a/c) = logb a−logb c
+            3. logb(ac) = clogb a
+            4. logb a = logd a/logd b
+            5. blogd a = alogd b
+   3 - The Linear Function f(n) = n
+   4 - The N-Log-N Function f(n) = n log(n),
+   5 - The Quadratic Function f(n) = n2 (n Square)
+   6 - The Cubic Function and Other Polynomials f(n) = n3 (n Cube)
+   7 - The Exponential Function f(n) = b Pow N (b rest to power N)
+
+

@@ -1,4 +1,4 @@
-
+from credit_card import CreditCard
 from math import sqrt, pi
 
 def factors(n):

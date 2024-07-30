@@ -1,0 +1,16 @@
+venv
+*.csv
+*.geojson
+*.xlsx
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.xml
+*.shx
+*.kml
+*.sbn
+*.sbx
+*.DS_Store
+*.pyc
+*.zip

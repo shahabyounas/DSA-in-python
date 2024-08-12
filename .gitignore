@@ -16,3 +16,5 @@ venv
 *.zip
 *.pdf
 *.fig
+/chat-facts
+chat-facts
